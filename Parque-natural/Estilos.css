@@ -1,0 +1,84 @@
+html {
+    background-color:#dfdfdf;
+   }
+ body {
+   font-family:  'Lucida Sans Unicode', sans-serif;
+   font-size: 14px;
+   background-color: #FFFFFF;
+   border: #d3d3d3 1px solid;
+   text-align: justify;
+   margin: 10px;
+   width: 900px;
+   }
+   h1 { 
+    text-align: center;
+    color: #5F8F11;
+    letter-spacing: .2em;
+    background-image: url(panoramica.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    margin: 0;
+    }
+ h1 span{
+   color: #BF823B;
+   }     
+ h2 {
+   color: #70AF0A;
+   border-bottom: #CFDFB5 1px solid;
+   }
+ h3 { 
+   color: #BF823B;
+   margin-bottom:0; 
+   margin-top:25px;
+   }
+ div.contenido {
+   border: #d3d3d3 1px solid;
+   margin: 20px 20px 10px 140px;
+   padding: 10px 15px;
+   }
+   #menu {
+    float: left;
+    width: 100px;
+    margin: 20px;
+    padding: 0;
+    list-style-type: none;
+  }
+  #menu li {
+    border: #d3d3d3 1px solid;
+    background-color: #CBE783;
+    background: linear-gradient(to top, #CBE783 5%, white);
+    margin-bottom: 5px;
+    font-size: 90%;
+    text-align: center;
+    line-height: 30px;
+  }
+  #menu a { 
+    display: block; 
+    text-decoration: none; 
+    color: #4F4F4F;
+  }
+  #menu li:hover {
+    border-color: #9F9F9F;
+    background-color: #F6FFDF;
+  }
+  #menu li:hover a {
+    color: #000;
+  }
+  #menu li.activa, #menu li.activa:hover {
+    border: #d3d3d3 1px solid; 
+    background-color: #E5CDB2;
+    background: linear-gradient(to top, #E5CDB2 5%, white);  
+  }
+   #menu li.activa a, #menu li.activa:hover a{
+      color: #000;
+   }
+   iv.autores {
+    color: #BFBFBF;
+    font-size: 85%;
+    text-align: center;
+    font-style: oblique;
+ }
+ div.autores a {
+    color: #BFBFBF;
+ }
