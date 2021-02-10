@@ -1,3 +1,10 @@
-html {
-    background-color :#87CEEB
+body {
+    background-color: #FFF9EF;
+    font-family: Arial, sans-serif;
+    color: #585858;
+}
+h1 {
+    background-color: #FFCABE;
+    font-size: 140%;
+    padding-left:5px;
 }
